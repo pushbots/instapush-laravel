@@ -1,0 +1,21 @@
+{
+    "name": "pushbots/instapush",
+    "description": "",
+    "authors": [
+        {
+            "name": "Abbas Adel",
+            "email": "abbas.adel.ibrahim@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": ["Instapush.class.php"],
+        "psr-0": {
+            "Pushbots\\Instapush\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

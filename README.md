@@ -53,7 +53,9 @@ Usage
 -----------------------------------
 
     ```php
+    
         Insta::Push("EventName", ['tacker1'=>'value1', 'tacker2'=>'value2']);
+        
      ```
 
 Reporting Bugs or Feature Requests
